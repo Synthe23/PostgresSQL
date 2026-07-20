@@ -16,5 +16,12 @@ VALUES
 ('Bicycle', 19750.50);
 
 SELECT * FROM basics.sales;
+
+-- To display the object names in prices ascending
 SELECT title, sales_price FROM basics.sales ORDER BY sales_price ASC;
+
+-- To display the object names in prices descending
 SELECT title, sales_price FROM basics.sales ORDER BY sales_price DESC;
+
+-- To display id 2 only
+SELECT * FROM basics.sales WHERE id = 2;
