@@ -20,8 +20,8 @@ VALUES
 
 SELECT * FROM basics.app_events;
 
-SELECT
-event_name,
- metadata ->> 'browser' AS browser 
-FROM basics.app_events 
-WHERE metadata ? 'browser';
+-- SELECT
+-- event_name,
+--  metadata ->> 'browser' AS browser 
+-- FROM basics.app_events 
+-- WHERE metadata ? 'browser';
