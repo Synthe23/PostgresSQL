@@ -3,7 +3,7 @@
 -- If not exists it is going to prevent an error if the schema is already existing
 CREATE SCHEMA IF NOT EXISTS basics;
 
-CREATE EXTENSION IF NOT EXISTS pgcrypto;
+-- CREATE EXTENSION IF NOT EXISTS pgcrypto;
 
 -- query
 
